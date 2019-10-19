@@ -1,0 +1,4 @@
+#example of tuple with addition and subtraction
+def calc_num(a,b):
+	return (a + b, a - b)
+print(type(calc_num(5,10)))
