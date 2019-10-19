@@ -1,0 +1,4 @@
+#indexing using tuple , where output is 15, -5 where final output is 15 (index[0])
+def calc_num(a,b):
+	return (a + b, a - b)
+print((calc_num(5,10)[0]))
