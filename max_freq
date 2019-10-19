@@ -1,0 +1,8 @@
+def max_freq(d):
+	max_num = 0
+	max_char = ""
+	for i in d:
+		if d[i] > max_num:
+			max_char = i
+			max_num = d[i]
+	return max_char, max_num
